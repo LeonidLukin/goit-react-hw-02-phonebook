@@ -25,7 +25,7 @@ function Contact({ name, number, onDeleteContact, contactId }) {
     )
 }
 
-Contact.prototype = {
+Contact.propTypes = {
     name: PropTypes.string.isRequired,
     number: PropTypes.string.isRequired,
     onDeleteContact: PropTypes.func.isRequired,

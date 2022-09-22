@@ -15,7 +15,7 @@ function Filter({ filter, changeFilter }) {
     );
 }
 
-Filter.prototype = {
+Filter.propTypes = {
     filter: PropTypes.string.isRequired,
     changeFilter: PropTypes.func.isRequired,
 };
